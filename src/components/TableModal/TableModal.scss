@@ -7,6 +7,10 @@
   background: #fff;
   text-align: center;
 
+  @media (max-width: 720px) {
+    width: 520px;
+  }
+
   &__planet-icon {
     font-size: 120px;
   }
@@ -39,5 +43,9 @@
     border-bottom-right-radius: 6px;
     color: #fff;
     background: #5967A0;
+
+    @media (max-width: 720px) {
+      padding: 9px 24px;
+    }
   }
 }
