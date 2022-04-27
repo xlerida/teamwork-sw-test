@@ -1,4 +1,4 @@
-# teamwork-sw-test
+# Teamwork Star Wars Test
 
 ## Project setup
 ```
