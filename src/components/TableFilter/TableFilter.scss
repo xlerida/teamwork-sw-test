@@ -1,0 +1,21 @@
+.TableFilter {
+  margin: 18px 0;
+  padding: 12px;
+  font-size: 16px;
+  text-align: center;
+  color: #31385A;
+  border: 2px solid #e9ebf5;
+  border-radius: 100px;
+  transition: 0.2s;
+
+  &::placeholder {
+    opacity: 0.5;
+    color: #6675b5;
+  }
+
+  &:focus {
+    outline: 0;
+    border-color: #74A3C6;
+    box-shadow: 0 3px 10px #BBD3E5;
+  }
+}
